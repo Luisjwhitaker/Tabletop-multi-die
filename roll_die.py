@@ -2,7 +2,8 @@ import random
 
 def roll_die(die_sides,rolls=1):
     '''
-    Takes number of sides of the die as the first argument, and number of rolls as the second optional argument,
+    Takes number of sides of the die as the first argument, and number of rolls as the second optional argument.
+    Returns results in the form of a list.
 
     example:
         roll_die(6) will roll a six sided die once.
